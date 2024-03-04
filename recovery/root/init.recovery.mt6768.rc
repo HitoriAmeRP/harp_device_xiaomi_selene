@@ -39,6 +39,10 @@ on property:twrp.decrypt.done=true
     stop keymaster-4-0
     stop gatekeeper-1-0
 
+on early-fs
+    write /proc/bootprof "INIT:early-fs"
+    start vold
+
 on boot
     start boot-hal-1-2
     start health-hal-2-1
