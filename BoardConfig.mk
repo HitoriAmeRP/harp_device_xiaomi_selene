@@ -159,6 +159,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.
 RECOVERY_SDCARD_ON_DATA := true
 TW_SKIP_ADDITIONAL_FSTAB := true
 TW_FORCE_KEYMASTER_VER := true
+TW_REFLASH_BY_DEFAULT := true
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
